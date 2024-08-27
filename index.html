@@ -8,11 +8,36 @@
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'red': 'hsl(0, 78%, 62%)',
+                    'cyan': 'hsl(180, 62%, 55%)',
+                    'orange': 'hsl(34, 97%, 64%)',
+                    'blue': 'hsl(212, 86%, 64%)',
+                    'very-dark-blue': 'hsl(234, 12%, 34%)',
+                    'grayish-blue': 'hsl(229, 6%, 66%)',
+                    'very-light-gray': 'hsl(0, 0%, 98%)',
+                    'white': '#ffffff',
+                },
+            },
+            boxShadow: {
+                'custom-gray': '40px 60px 50px -47px rgba(72, 85, 106, 0.25)',
+            },
+            fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+            },
+        },
+        };
+    </script>
 </head>
 <body>
   Daniel Clifford
@@ -68,9 +93,6 @@
   experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
   100% recommend! ”
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 </html>
