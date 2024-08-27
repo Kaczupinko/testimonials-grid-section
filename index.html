@@ -10,7 +10,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100..900&display=swap" rel="stylesheet" />
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -33,66 +33,128 @@
                 'custom-gray': '40px 60px 50px -47px rgba(72, 85, 106, 0.25)',
             },
             fontFamily: {
-            poppins: ['Poppins', 'sans-serif'],
+                barlow: ['Barlow Semi Condensed', 'sans-serif'],
             },
         },
         };
     </script>
 </head>
-<body>
-  Daniel Clifford
-  Verified Graduate
-
-  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
-  in the company I joined. I honestly feel I got every penny’s worth.
-
-  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
-  transition and have heard some people who had an amazing experience here. I signed up 
-  for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
-  The next 12 weeks was the best - and most grueling - time of my life. Since completing 
-  the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
-
-  Jonathan Walters
-  Verified Graduate
-
-  The team was very supportive and kept me motivated
-
-  “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
-  for a big company. This was one of the best investments I’ve made in myself. ”
-
-  Jeanette Harmon
-  Verified Graduate
-
-  An overall wonderful and rewarding experience
-
-  “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
-  while doing something I love. ”
-
-  Patrick Abrams
-  Verified Graduate
-
-  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
-  learning from their experiences was easy.
-
-  “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
-  gave me the confidence necessary to be able to go out in the world and present myself as a capable 
-  junior developer. The standard is above the rest. You will get the personal attention you need from 
-  an incredible community of smart and amazing people. ”
-
-  Kira Whittle
-  Verified Graduate
-
-  Such a life-changing experience. Highly recommended!
-
-  “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
-  professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
-  student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
-  did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
-  project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
-  could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
-  experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
-  100% recommend! ”
-  
-
+<body class="bg-[#ECF2F8]">
+    <main class="max-w-7xl mx-auto  min-h-screen grid grid-column-1 xl:grid-cols-4 xl:grid-rows-2 xl:grid-flow-col xl:gap-[30px] [24px] py-[71px] px-[24px]">
+        <section class="shadow-custom-gray rounded-lg bg-[#733FC8] relative xl:col-span-2 xl:order-1">
+            <header class="flex pl-[32px] pt-[26px] pb-[17px]">
+                <img class="w-[32px] h-[32px] rounded-full border-[2px] border-[#A775F1]" src="./images/image-daniel.jpg" alt="">
+                <div class="flex flex-col gap-[4px]">
+                    <h3 class="text-[#fff] text-[13px] font-normal font-barlow leading-[13px] pl-[11px]">
+                        Daniel Clifford
+                    </h3>
+                    <p class="text-[#fff] text-[11px] font-medium font-barlow leading-[11px] pl-[11px] opacity-50">
+                        Verified Graduate
+                    </p>
+                </div>
+            </header>
+            <h2 class="text-[#fff] text-[16px] font-semibold font-barlow leading-normal tracking-normal px-[32px] relative z-10">
+                I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+                in the company I joined. I honestly feel I got every penny’s worth.
+            </h2>
+            <p class="text-[#CFCFCF] text-[13px] font-medium font-barlow leading-[18px] opacity-70 pl-[32px] pr-[48px] pb-[32px] pt-[40px] xl:pr-[32px]">
+                “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+                transition and have heard some people who had an amazing experience here. I signed up 
+                for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+                The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+                the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+            </p>
+            <img class="w-[104px] h-[102px] absolute top-0 right-[25px] xl:right-[80px] object-cover z-0" src="./images/bg-pattern-quotation.svg" alt="">
+        </section>
+        <section class="shadow-custom-gray rounded-lg bg-[#48556A] xl:order-4">
+            <header class="flex pl-[32px] pt-[26px] pb-[18px]">
+                <img class="w-[28px] h-[28px] rounded-full" src="./images/image-jonathan.jpg" alt="">
+                <div class="flex flex-col gap-[4px]">
+                    <h3 class="text-[#fff] text-[13px] font-medium font-barlow leading-[13px] pl-[11px]">
+                        Jonathan Walters
+                    </h3>
+                    <p class="text-[#fff] text-[11px] font-medium font-barlow leading-[11px] pl-[11px] opacity-50">
+                        Verified Graduate
+                    </p>
+                </div>
+            </header>
+            <h2 class="text-[#fff] text-[16px] font-semibold font-barlow leading-normal px-[32px]">
+                The team was very supportive and kept me motivated
+            </h2>
+            <p class="text-[#CFCFCF] text-[13px] font-medium font-barlow leading-[18px] opacity-70 px-[32px] pb-[32px] pt-[16px]">
+                “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+                for a big company. This was one of the best investments I’ve made in myself. ”
+            </p>
+        </section>
+        <section class="shadow-custom-gray rounded-lg bg-[#FFF] xl:order-2">
+            <header class="flex pl-[32px] pt-[26px] pb-[18px]">
+                <img class="w-[28px] h-[28px] rounded-full" src="./images/image-jeanette.jpg" alt="">
+                <div class="flex flex-col gap-[4px]">
+                    <h3 class="text-[#48556A] text-[13px] font-medium font-barlow leading-[13px] pl-[11px]">
+                        Jeanette Harmon
+                    </h3>
+                    <p class="text-[#48556A] text-[11px] font-medium font-barlow leading-[11px] pl-[11px] opacity-50">
+                        Verified Graduate
+                    </p>
+                </div>
+            </header>
+            <h2 class="text-[#48556A] text-[16px] font-semibold font-barlow leading-normal px-[32px]">
+                An overall wonderful and rewarding experience
+            </h2>
+            <p class="text-[#48556A] text-[13px] font-medium font-barlow leading-[18px] opacity-70 px-[32px] pb-[32px] pt-[16px]">
+                “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+                while doing something I love. ”
+            </p>
+        </section>
+        <section class="shadow-custom-gray rounded-lg bg-[#19202D] xl:col-span-2 xl:order-2">
+            <header class="flex pl-[32px] pt-[26px] pb-[18px]">
+                <img class="w-[28px] h-[28px] rounded-full border-[2px] border-[#A775F1]" src="./images/image-patrick.jpg" alt="">
+                <div class="flex flex-col gap-[4px]">
+                    <h3 class="text-[#fff] text-[13px] font-medium font-barlow leading-[13px] pl-[11px]">
+                        Patrick Abrams
+                    </h3>
+                    <p class="text-[#fff] text-[11px] font-medium font-barlow leading-[11px] pl-[11px] opacity-50">
+                        Verified Graduate
+                    </p>
+                </div>
+            </header>
+            <h2 class="text-[#fff] text-[16px] font-semibold font-barlow leading-normal px-[32px]">
+                Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+                learning from their experiences was easy.
+            </h2>
+            <p class="text-[#CFCFCF] text-[13px] font-medium font-barlow leading-[18px] opacity-70 px-[32px] pb-[32px] pt-[16px]">
+                “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+                gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+                junior developer. The standard is above the rest. You will get the personal attention you need from 
+                an incredible community of smart and amazing people. ”
+            </p>
+        </section>
+        <section class="shadow-custom-gray rounded-lg bg-[#FFF] xl:row-span-2 xl:order-5">
+            <header class="flex pl-[32px] pt-[26px] pb-[18px]">
+                <img class="w-[28px] h-[28px] rounded-full" src="./images/image-kira.jpg" alt="">
+                <div class="flex flex-col gap-[4px]">
+                    <h3 class="text-[#48556A] text-[13px] font-medium font-barlow leading-[13px] pl-[11px]">
+                        Kira Whittle
+                    </h3>
+                    <p class="text-[#48556A] text-[11px] font-medium font-barlow leading-[11px] pl-[11px] opacity-50">
+                        Verified Graduate
+                    </p>
+                </div>
+            </header>
+            <h2 class="text-[#48556A] text-[16px] font-semibold font-barlow leading-normal px-[32px]">
+                Such a life-changing experience. Highly recommended!
+            </h2>
+            <p class=" text-[#48556A] text-[13px] font-medium font-barlow leading-[18px] tracking-normal opacity-70 px-[32px] pb-[32px] pt-[16px]">
+                “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+                professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+                student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+                did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+                project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+                could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+                experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+                100% recommend! ”
+            </p>
+        </section>
+    </main>
 </body>
 </html>
